@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1000px;              
+    margin: 0 auto;             
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+/* Baris 1 */
+.box1 {
+    width: 150px;
+    height: 12vh;
+    background-color: yellow; 
+    margin: 10px;
+    border: 1px solid;
+}
+
+.box2 {
+    width: 770px;
+    height: 12vh;
+    background-color: orange;
+    margin: 10px;
+    border: 1px solid;
+}
+
+/* Baris 2 */
+.box3 {
+    width: 150px;
+    height: 65vh;
+    background-color: green;  
+    margin: 10px;
+    border: 1px solid;
+}
+
+.box4 {
+    width: 600px;
+    height: 65vh;
+    background-color: gray;  
+    margin: 10px;
+    border: 1px solid;
+}
+
+.box5 {
+    width: 150px;
+    height: 65vh;
+    background-color: cyan;  
+    margin: 10px;
+    border: 1px solid;
+}
+
+/* Baris 3 */
+.box6 {
+    width: 940px;
+    height: 10vh;
+    background-color: blue;  
+    margin: 10px;
+    border: 1px solid;
+}

@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;     
+    gap: 10px;                    
+    width: 1000px;
+    margin: 20px auto;
+}
+
+.row1,
+.row2 {
+    display: flex;               
+    gap: 10px;                  
+}
+
+img {
+    flex: 1;                     
+    min-width: 0;                
+    height: 200px;
+    object-fit: cover;           
+    border: 3px solid #333333;
+    border-radius: 8px;          
+    background-color: #e0e0e0;   
+}
